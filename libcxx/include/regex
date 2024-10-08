@@ -8,7 +8,7 @@
 //===----------------------------------------------------------------------===//
 
 // See https://github.com/ClickHouse/ClickHouse/pull/58681
-#warning "<regex> is disabled. Use <re2/re2.h> instead"
+#error "<regex> is disabled. Use <Common/re2.h> instead"
 
 #ifndef _LIBCPP_REGEX
 #define _LIBCPP_REGEX
