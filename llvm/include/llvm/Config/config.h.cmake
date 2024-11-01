@@ -34,10 +34,6 @@
 /* can use __crashreporter_info__ */
 #cmakedefine01 HAVE_CRASHREPORTER_INFO
 
-/* Define to 1 if you have the declaration of `arc4random', and to 0 if you
-   don't. */
-#cmakedefine01 HAVE_DECL_ARC4RANDOM
-
 /* Define to 1 if you have the declaration of `FE_ALL_EXCEPT', and to 0 if you
    don't. */
 #cmakedefine01 HAVE_DECL_FE_ALL_EXCEPT
@@ -139,9 +135,6 @@
 
 /* Define to 1 if you have the `mallinfo' function. */
 #cmakedefine HAVE_MALLINFO ${HAVE_MALLINFO}
-
-/* Define to 1 if you have the `mallinfo2' function. */
-#cmakedefine HAVE_MALLINFO2 ${HAVE_MALLINFO2}
 
 /* Define to 1 if you have the <malloc/malloc.h> header file. */
 #cmakedefine HAVE_MALLOC_MALLOC_H ${HAVE_MALLOC_MALLOC_H}
